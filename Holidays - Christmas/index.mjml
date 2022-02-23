@@ -1,0 +1,169 @@
+<mjml>
+  <mj-head>
+    <mj-title>Christmas</mj-title>
+    <mj-preview>Christmas</mj-preview>
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-all font-family="Arial" />
+    </mj-attributes>
+    <mj-style>
+      .happy {
+        opacity: 0.8;
+        border-radius: 50px;
+      }
+
+      .card-title {
+        font-size: 30px;
+      }
+
+      .card-text {
+        font-size: 25px;
+        line-height: 35px;
+        padding: 0 30px;
+      }
+
+      .unsubscribe {
+        color: #000000;
+      }
+
+      @media (max-width: 670px) {
+        .main-title p {
+          font-size: 55px !important;
+          line-height: 85px !important;
+        }
+
+        .main-column td {
+          padding-left: 30px !important;
+          padding-right: 30px !important;
+        }
+
+        .main-text div {
+          font-size: 20px !important;
+        }
+
+        .card-title {
+          font-size: 20px !important;
+        }
+
+        .card-text {
+        font-size: 15px;
+        line-height: 35px;
+        
+      }
+      }
+
+      @media (max-width: 520px) {
+        .main-title p {
+          font-size: 35px !important;
+          line-height: 55px !important;
+        }
+      }
+
+    </mj-style>
+  </mj-head>
+  <mj-body width="850px">
+    <mj-section background-url="image-assets/PM-Holiday-Image1-mini.jpg">
+      <mj-column >
+        <mj-button css-class="main-title" 
+                   background-color="#ffffff"
+                   color="#be0f34"
+                   padding="220px 20px 180px 20px"
+                   font-size="75px"
+                   line-height="125px"
+                   font-weight="bold"
+                   border-radius="15px">
+          happy holidays!
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column css-class="main-column" padding="0px 110px">
+        <mj-text css-class="main-text"
+                 font-size="30px" 
+                 line-height="40px" 
+                 align="center"
+                 color="#000000"
+                 padding-top="40px"
+                 padding-bottom="10px">Enjoy the holidays with your family and friends with these festive recipes and gift ideas!</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0px 25px">
+      <mj-column css-class="column" padding="25px 25px">
+        <mj-image src="image-assets/PM-Holiday-Image2.jpg"/>
+        <mj-text container-background-color="#be0f34" 
+                 align="center" 
+                 color="#ffffff"
+                 >
+          <h3 class="card-title">sweet berry pie</h3>
+          <p class="card-text">the sweetest and easiest berry pie perfect for the Holidays!</p>
+        </mj-text>
+        <mj-button background-color="#ffffff" 
+                   color="#be0f34"
+                   border="5px solid #be0f34"
+                   border-radius="15px"
+                   padding-top="15px"
+                   font-size="25px"
+                   line-height="35px"
+                   href="#"
+                   >Read more</mj-button>
+      </mj-column>
+      <mj-column css-class="column" padding="25px 25px">
+        <mj-image src="image-assets/PM-Holiday-Image3.jpg"/>
+          <mj-text container-background-color="#be0f34" 
+                   align="center" 
+                   color="#ffffff"
+                   >
+            <h3 class="card-title">10 meaningful gifts</h3>
+            <p class="card-text">worry no more with these gifts that your family will love!</p>
+          </mj-text>
+          <mj-button background-color="#ffffff" 
+                   color="#be0f34"
+                   border="5px solid #be0f34"
+                   border-radius="15px"
+                   padding-top="15px"
+                   font-size="25px"
+                   line-height="35px"
+                   href="#"
+                   >Read more</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#be0f34">
+      <mj-column>
+        <mj-text font-size="20px"
+                 line-height="35px"
+                 color="#ffffff"
+                 align="center"
+                 padding-top="20px"
+                 padding-bottom="10px">follow us on social media
+        </mj-text>
+        <mj-social icon-size="45px" mode="horizontal" padding-bottom="20px">
+          <mj-social-element padding="6px" src="image-assets/facebook.png" href="#">
+          </mj-social-element>
+          <mj-social-element padding="6px" src="image-assets/twitter.png" href="#">
+          </mj-social-element>
+          <mj-social-element padding="6px" src="image-assets/pinterest.png" href="#">
+          </mj-social-element>
+          <mj-social-element padding="6px" src="image-assets/ig.png" href="#">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text font-size="13px"
+                 line-height="18px"
+                 align="center"
+                 padding-top="15px">Copyright 2019 Yoursite, All right reserved.</br>
+                  You subscribed to our newsletter via our website, example.com</mj-text>
+        <mj-text font-size="15px"
+                 line-height="20px"
+                 align="center"
+                 padding-top="15px"
+                 padding-bottom="25px">
+        <a class="unsubscribe" href="#">Unsubscribe from this list.</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+
+  </mj-body>
+</mjml>
