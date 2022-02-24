@@ -93,7 +93,20 @@
         text-decoration: underline;
       }
 
-      @media (max-width: 600px) {
+      .products__item--1 > table {
+        border-right: 1px solid #dedede;
+        border-bottom: 1px solid #dedede;
+      }
+
+      .products__item--2 > table {
+        border-bottom: 1px solid #dedede;
+      }
+
+      .products__item--3 > table {
+        border-right: 1px solid #dedede;
+      }
+
+      @media (max-width: 570px) {
         .main__text{
           padding: 0 50px;
         }
@@ -109,6 +122,16 @@
 
         .footer__text {
           padding: 0 50px
+        }
+
+        .products__item > table {
+          border: none;
+        }
+
+        .products__item--1 > table,
+        .products__item--2 > table,
+        .products__item--3 > table {
+          border-bottom: 1px solid #dedede;
         }
       }
     </mj-style>
@@ -215,7 +238,7 @@
         </mj-column>
       </mj-section>
       <mj-section>
-        <mj-column border-right="1px solid #dedede">
+        <mj-column css-class="products__item products__item--1">
           <mj-image src="img/iphone.png" height="140px" width="210px" padding-top="30px"/>
           <mj-text>
             <h3 class="products__title">iPhone 7</h3>
@@ -227,7 +250,7 @@
                      href="#"
                      >Shop now</mj-button>
         </mj-column>
-        <mj-column>
+        <mj-column css-class="products__item products__item--2">
           <mj-image src="img/hero5.png" height="140px" width="140px" padding-top="30px"/>
           <mj-text>
             <h3 class="products__title">Hero 5 Black</h3>
@@ -241,7 +264,7 @@
         </mj-column>
       </mj-section>
       <mj-section>
-        <mj-column border-right="1px solid #dedede" border-top="1px solid #dedede">
+        <mj-column css-class="products__item products__item--3">
           <mj-image src="img/macbook.png" height="140px" width="270px" padding-top="30px"/>
           <mj-text>
             <h3 class="products__title">MacBook Pro</h3>
@@ -253,7 +276,7 @@
                      href="#"
                      >Shop now</mj-button>
         </mj-column>
-        <mj-column border-top="1px solid #dedede">
+        <mj-column css-class="products__item products__item--4">
           <mj-image src="img/iwatch.png" height="140px" width="120px" padding-top="30px"/>
           <mj-text>
             <h3 class="products__title">Apple Watch Space Gray</h3>
